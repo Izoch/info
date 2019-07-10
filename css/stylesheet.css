@@ -19,16 +19,16 @@ h3
 #nav
 {
     float: left;
+    padding-left: 100px;
+    padding-top: 30px;
     padding-left: 10%;
-    padding-top: 5%;
-    padding-right: 10%;
 }
 
 #mainContainer
 {
     margin: auto;
     padding: 10px;
-    width: 600px;
+    width: 700px;
 }
 
 #header
