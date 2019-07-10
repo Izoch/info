@@ -17,7 +17,9 @@ h3
 
 #mainContainer
 {
-    width: 600px;
+    margin: auto;
+    padding: 10px;
+    width: 45%;
 }
 
 #header
@@ -28,8 +30,9 @@ h3
 #cover
 {
     text-align: justify;
+    text-justify: inter-word;
     word-wrap: break-word;
-    width: 600px;
+    clear: both;
 }
 
 #contact
