@@ -1,0 +1,63 @@
+body
+{
+    font-family: Fira;
+    background-color:#F5F5F5;
+    color: #484848;
+}
+
+h1
+{
+    color: #383838
+}
+
+h3
+{
+    color: #383838
+}
+
+#mainContainer
+{
+    width: 600px;
+}
+
+#header
+{
+    border-bottom;
+}
+
+#cover
+{
+    text-align: justify;
+    word-wrap: break-word;
+    width: 600px;
+}
+
+#contact
+{
+    float: left;
+}
+
+#sites
+{
+    float: right;
+}
+
+#workExperience
+{
+    clear: both;
+}
+
+#skills
+{
+    clear: both;
+}
+
+#education
+{
+    clear: both;
+}
+
+#personalInterests
+{
+    clear: both;
+}
