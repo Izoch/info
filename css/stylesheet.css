@@ -20,10 +20,27 @@ h1/*{{{*/
 
 .topnav/*{{{*/
 {
-    font-family: IBM Plex Serif;
-    font-size: 20px;
-    text-align: center;
-    color: #484848;
-    line-height: 1;
     overflow: hidden;
+}/*}}}*/
+
+.topnav a/*{{{*/
+{
+    color: #282828;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}/*}}}*/
+
+.topnav a:hover {/*{{{*/
+    background-color: #ddd;
+    border-radius: 2px;
+    color: black;
+}/*}}}*/
+
+.topnav a.active /*{{{*/
+{
+    background-color: #ddd;
+    border-radius: 2px;
+    color: black;
 }/*}}}*/
