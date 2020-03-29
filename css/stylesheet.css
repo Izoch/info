@@ -1,92 +1,29 @@
-body
+body/*{{{*/
 {
     font-family: IBM Plex Sans;
-    background-color:#f5f5f5;
-    color: #585858;
-    line-height: 1.25;
-}
+    color: #484848;
+    line-height: 1.6;
+    font-size: 20;
+    margin: 40px auto;
+    max-width:650px;
+    background-image: url("../img/dot-grid.png");
+    background-repeat: repeat;
+}/*}}}*/
 
-.clearfix 
-{ 
-    clear: both 
-}
-
-a:link 
-{
-    font-family: IBM Plex Sans;
-    font-weight: bold;
-    text-decoration: none;
-    color: #458588;
-}
-
-a:visited 
-{
-    font-family: IBM Plex Sans;
-    font-weight: bold;
-    text-decoration: none;
-    color: #b16286;
-}
-
-a:hover 
-{
-    font-family: IBM Plex Sans;
-    font-weight: bold;
-    text-decoration: none;
-    color: #689d6a;
-}
-
-a:active 
-{
-    font-family: IBM Plex Sans;
-    font-weight: bold;
-    text-decoration: none;
-    color: #98971a;
-}
-
-h1
+h1/*{{{*/
 {
     font-family: IBM Plex Serif;
-    color: #383838
-}
+    color: #484848;
+    line-height: 1.4;
+    font-size: 34;
+}/*}}}*/
 
-h3
+.topnav/*{{{*/
 {
     font-family: IBM Plex Serif;
-    color: #383838
-}
-
-#nav
-{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 10px;
-    width: 10%;
-    background-color: #282828;
-    height: 95%;
-    position: fixed;
-    overflow: auto; 
-}
-
-hr {
-    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #484848;
+    line-height: 1;
     overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-}
-
-#mainContainer
-{
-    margin-left: 15%;
-    width: 60%;
-    height: 95%;
-}
-
-#contact
-{
-    float: left;
-}
-
-#sites
-{
-    float: right;
-}
+}/*}}}*/
